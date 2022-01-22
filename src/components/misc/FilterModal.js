@@ -22,6 +22,8 @@ export default function FilterModal({ closeM }) {
         Games: !state.allCheckbox,
         Marketplaces: !state.allCheckbox,
         Defi: !state.allCheckbox,
+         Collectibles: !state.allCheckbox,
+        Utilities: !state.allCheckbox,
         allCheckbox: !state.allCheckbox,
       });
     } else {
